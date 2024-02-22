@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.Fibonacci",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Java_revisit.Conditions.Calculator",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Conditions",
+            "request": "launch",
+            "mainClass": "Java_revisit.Conditions.Conditions",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Conditions2",
+            "request": "launch",
+            "mainClass": "Java_revisit.Conditions.Conditions2",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Conditions3",
+            "request": "launch",
+            "mainClass": "Java_revisit.Conditions.Conditions3",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Months",
+            "request": "launch",
+            "mainClass": "Java_revisit.Conditions.Months",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Average",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.Average",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Circumference",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.Circumference",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Find_greater",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.Find_greater",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.GCD",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Number",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.Number",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Sum_of_odd",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.Sum_of_odd",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Voteligible",
+            "request": "launch",
+            "mainClass": "Java_revisit.Excersice.Voteligible",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Questions",
+            "request": "launch",
+            "mainClass": "Java_revisit.Functions.Questions",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Java_revisit.Loops.Loops",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Even",
+            "request": "launch",
+            "mainClass": "Java_revisit.Loops_Questions.Even",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Menu",
+            "request": "launch",
+            "mainClass": "Java_revisit.Loops_Questions.Menu",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Rectangle",
+            "request": "launch",
+            "mainClass": "Java_revisit.Pattern.Hollow_Rectangle",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Solid_Rectangle",
+            "request": "launch",
+            "mainClass": "Java_revisit.Pattern.Solid_Rectangle",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "FirstClass",
+            "request": "launch",
+            "mainClass": "Java_revisit.start.FirstClass",
+            "projectName": "DSA_learning_de2af219"
+        }
+    ]
+}
