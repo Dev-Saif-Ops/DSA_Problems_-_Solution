@@ -1,4 +1,4 @@
-package Java_revisit;
+package Java_revisit.Conditions;
 
 import java.util.Scanner;
 

@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sorted_or_ns",
+            "request": "launch",
+            "mainClass": "Java_revisit.Arrays.Sorted_or_ns",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Find_max_min",
+            "request": "launch",
+            "mainClass": "Java_revisit.Arrays.Find_max_min",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Print_names",
+            "request": "launch",
+            "mainClass": "Java_revisit.Arrays.Print_names",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Find_Index",
+            "request": "launch",
+            "mainClass": "Java_revisit.Arrays.Find_Index",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
             "name": "Fibonacci",
             "request": "launch",
             "mainClass": "Java_revisit.Excersice.Fibonacci",
