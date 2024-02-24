@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Java_revisit.Arrays.Solution",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "Twod_array",
+            "request": "launch",
+            "mainClass": "Java_revisit.Arrays.Twod_array",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
             "name": "Sorted_or_ns",
             "request": "launch",
             "mainClass": "Java_revisit.Arrays.Sorted_or_ns",
