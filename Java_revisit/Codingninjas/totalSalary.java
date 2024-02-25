@@ -1,62 +1,59 @@
-/* Problem Link: https://www.codingninjas.com/studio/guided-paths/basics-of-java/content/120302/offering/1461354?leftPanelTabValue=PROBLEM&customSource=studio_nav */
-
 import java.util.* ;
 
-import java.io.*;
+import java.io.*; 
 
-
+ 
 
 class Solution {
 
-
-
     public static void main(String args[]) {
 
-
-
         // Write code here
+        Scanner sc = new Scanner(System.in);
+        float basicSalary = sc.nextInt();
+        char grade = sc.next().charAt(0);
 
-        Scanner sc= new Scanner(System.in);
+        // Calling the functions and capturing the results
+        float hra = hra(basicSalary);
+        float da = da(basicSalary);
+        float allow = allow(basicSalary, grade);
+        float pf = pf(basicSalary);
 
-        float basic= sc.nextInt();
+        // Calculate the total salary
+        float totalSalary = basicSalary + hra + da + allow - pf;
 
-        char ch=sc.next().charAt(0);
-
-        float allow;
-
-        float hra=(basic)*20/100;
-
-        float da=(basic)*50/100;
-
-        float pf=(basic)*11/100;
-
-        if(ch=='A'){
-
-             allow=1700;
-
-        }
-
-        else if(ch=='B'){
-
-            allow=1500;
-
-        }
-
-        else{
-
-            allow=1300;
-
-        }
-
-
-
-        float totalSalary=basic+hra+da+allow-pf;
-
+        // Print the integral part of the total salary
         System.out.println(Math.round(totalSalary));
-
-
-
     }
 
+    // Function to calculate HRA
+    public static float hra(float basicSalary) {
+        return basicSalary * 20/100;
+    }
+
+    // Function to calculate DA
+    public static float da(float basicSalary) {
+        return basicSalary * 50/100;
+    }
+
+    // Function to declare allowance
+    public static float allow(float basicSalary, char grade) {
+
+        float allowance = 0;
+        if (grade == 'A') {
+            allowance = 1700;
+        } else if (grade == 'B') {
+            allowance = 1500;
+        } else
+        {
+            allowance = 1300;
+        } // Removed the else block to ensure allowance is not set to 0 by default
+        return allowance;
+    }
+
+    // Function to calculate PF
+    public static float pf(float basicSalary) {
+        return basicSalary * 11/100;
+    }
 }
 
