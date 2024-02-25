@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "practiceBs",
+            "request": "launch",
+            "mainClass": "Robert_Lafore_Summary.Simple_Sort.Bubble_Sort.practiceBs",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSortApp",
+            "request": "launch",
+            "mainClass": "Robert_Lafore_Summary.Simple_Sort.Bubble_Sort.BubbleSortApp",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "Java_revisit.Arrays.Solution",
