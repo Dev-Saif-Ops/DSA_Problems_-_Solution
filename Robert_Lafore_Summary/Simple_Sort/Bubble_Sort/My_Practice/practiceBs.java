@@ -1,4 +1,4 @@
-package Robert_Lafore_Summary.Simple_Sort.Bubble_Sort;
+package Robert_Lafore_Summary.Simple_Sort.Bubble_Sort.My_Practice;
 
 import java.util.Scanner;
 

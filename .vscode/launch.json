@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "practiseSelectionSort",
+            "request": "launch",
+            "mainClass": "Robert_Lafore_Summary.Simple_Sort.Selection_Sort.My_Practise.practiseSelectionSort",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "SelectSortApp",
+            "request": "launch",
+            "mainClass": "Robert_Lafore_Summary.Simple_Sort.Selection_Sort.Books_Code.SelectSortApp",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
             "name": "practiceBs",
             "request": "launch",
             "mainClass": "Robert_Lafore_Summary.Simple_Sort.Bubble_Sort.practiceBs",
