@@ -6,27 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "StackClass2",
-            "request": "launch",
-            "mainClass": "Robert_Lafore_.Stack_and_Queues.Practise.Stack_Arraylist.StackClass2",
-            "projectName": "DSA_learning_de2af219"
-        },
-        {
-            "type": "java",
-            "name": "StackClass",
-            "request": "launch",
-            "mainClass": "Robert_Lafore_.Stack_and_Queues.Practise.Stack_Arraylist.StackClass",
-            "projectName": "DSA_learning_de2af219"
-        },
-        {
-            "type": "java",
-            "name": "ArrayLists",
-            "request": "launch",
-            "mainClass": "Java_revisit.ArrayList.ArrayLists",
-            "projectName": "DSA_learning_de2af219"
-        },
-        {
-            "type": "java",
             "name": "BracketsApp",
             "request": "launch",
             "mainClass": "Robert_Lafore_.Stack_and_Queues.Book_Codes.BracketsApp",
