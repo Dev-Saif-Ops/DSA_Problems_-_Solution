@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BubbleSortApp",
+            "request": "launch",
+            "mainClass": "Robert_Lafore_.Simple_Sort.Bubble_Sort.Books_code.BubbleSortApp",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "QueueY",
+            "request": "launch",
+            "mainClass": "Robert_Lafore_.Stack_and_Queues.Queues.Practise.Queue_Array.QueueY",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
+            "name": "QueueApp",
+            "request": "launch",
+            "mainClass": "Robert_Lafore_.Stack_and_Queues.Queues.Books_Codes.QueueApp",
+            "projectName": "DSA_learning_de2af219"
+        },
+        {
+            "type": "java",
             "name": "StackClass2",
             "request": "launch",
             "mainClass": "Robert_Lafore_.Stack_and_Queues.Practise.Stack_Arraylist.StackClass2",

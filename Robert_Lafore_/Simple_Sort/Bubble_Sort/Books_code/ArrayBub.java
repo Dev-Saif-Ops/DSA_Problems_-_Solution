@@ -1,9 +1,12 @@
-package Robert_Lafore_Summary.Simple_Sort.Bubble_Sort;
+package Robert_Lafore_.Simple_Sort.Bubble_Sort.Books_code;
 
-/* bubblesort.java program */
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 
-class ArrayBub
-{
+class ArrayBub {
     private long[] a; // ref to array a
     private int nElems; // number of data items
 
@@ -32,8 +35,8 @@ class ArrayBub
             System.out.print(a[j] + " "); // display it
         }
         System.out.println(" ");
-
     }
+
     //-------------------------------------------------
 
     public void bubbleSort()
@@ -48,7 +51,6 @@ class ArrayBub
                 {
                     swap(in, in+1); // swap them
                 }
-                // end bubbleSort()
             }
         }
     }
@@ -62,34 +64,68 @@ class ArrayBub
         a[two] = temp;
     }
 
-    //-------------------------------------------------   
+    //------------------------------------------------------------------------------------------  
 
-} // end class ArrayBub
-////////////////////////////////////////////////////////
+    public static void readInputFromFile(String filePath, ArrayBub arr) {
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                // Skip empty lines
+                if (line.trim().isEmpty()) {
+                    continue;
+                }
+                
+                try {
+                    long value = Long.parseLong(line.trim());
+                    arr.insert(value);
+                } catch (NumberFormatException e) {
+                    System.out.println("Skipping invalid number: " + line);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-class BubbleSortApp
-{
-    public static void main(String[] args)
-    {
+    //------------------------------------------------------------------------------------------
+
+    public void saveOutputToFile(String filePath) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
+            for (int j = 0; j < nElems; j++) {
+                writer.println(a[j]);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+//---------------------------------------------------------------------------------------------------------
+
+class BubbleSortApp {
+    public static void main(String[] args) {
         int maxSize = 100; // array size
-        ArrayBub arr;  // reference to array
-        arr = new ArrayBub(maxSize); //create the array
+        ArrayBub arr = new ArrayBub(maxSize); // create the array
 
-        arr.insert(77); //insert 10 times
-        arr.insert(99);
-        arr.insert(44);
-        arr.insert(55);
-        arr.insert(22);
-        arr.insert(88);
-        arr.insert(11);
-        arr.insert(00);
-        arr.insert(66);
-        arr.insert(33);
+        // Provide the file paths for input and output
+        String inputFilePath = "/home/hi-tech/DSA_learning/input.txt";
+        String outputFileName = "output.txt"; // Change the output file name if needed
 
+        // Read input from file
+        System.out.println("Input File Detected");
+        arr.readInputFromFile(inputFilePath, arr);
+
+        System.out.println("Original Array:");
         arr.display(); // display items
 
         arr.bubbleSort(); // bubble sort them
 
+        System.out.println("Sorted Array:");
         arr.display(); // display them again
+
+        // Save sorted output to file in the same directory
+        System.out.println("Output File created");
+        String outputFilePath = outputFileName;
+        arr.saveOutputToFile(outputFilePath);
     } // end main()
-} // end class BubbleSortApp
+}

@@ -1,0 +1,44 @@
+Code Explanation (Code Ki Tafseelat):
+
+Class Queue:
+
+Fields:
+
+maxSize: Queue ka maximum size, kitne elements ko store kar sakta hai.
+queArray: Array jo queue ko store karega.
+front: Queue ka front pointer, jahan se elements nikale jayenge.
+rear: Queue ka rear pointer, jahan par elements insert honge.
+nItems: Queue mein maujood items ka count.
+Constructor:
+
+public Queue(int s): Constructor jisme queue ki size set hoti hai, aur array banai jati hai.
+Methods:
+
+public void insert(long j): Queue ke rear mein naya element insert karne ke liye.
+public long remove(): Queue ke front se ek element nikalne ke liye.
+public long peekFront(): Queue ka front element dekhne ke liye.
+public boolean isEmpty(): Check karta hai ke queue khaali hai ya nahi.
+public boolean isFull(): Check karta hai ke queue full hai ya nahi.
+public int size(): Queue mein maujood items ka count dekhne ke liye.
+Class QueueApp:
+
+Main Method:
+
+public static void main(String[] args): Yahan queue create kiya jata hai aur us par operations perform kiye jate hain.
+Queue Operations:
+
+theQueue.insert(10);: 10 ko queue ke rear mein daala gaya.
+theQueue.insert(20);: 20 ko queue ke rear mein daala gaya.
+theQueue.insert(30);: 30 ko queue ke rear mein daala gaya.
+theQueue.insert(40);: 40 ko queue ke rear mein daala gaya.
+theQueue.remove();: Queue ke front se ek element nikala gaya.
+theQueue.remove();: Queue ke front se ek aur element nikala gaya.
+theQueue.remove();: Queue ke front se ek aur element nikala gaya.
+theQueue.insert(50);: 50 ko queue ke rear mein daala gaya.
+theQueue.insert(60);: 60 ko queue ke rear mein daala gaya.
+theQueue.insert(70);: 70 ko queue ke rear mein daala gaya.
+theQueue.insert(80);: 80 ko queue ke rear mein daala gaya.
+Print Operations:
+
+while( !theQueue.isEmpty() ): Jab tak queue khaali nahi hoti, elements ko nikala jata hai aur print kiya jata hai.
+Note: Code mein insert, remove, peekFront, isEmpty, isFull, aur size operations ka istemal queue ke basic operations ko demonstrate karne ke liye kiya gaya hai. Queue ki size 5 hai, isliye 6th element insert karne par error aayega.
